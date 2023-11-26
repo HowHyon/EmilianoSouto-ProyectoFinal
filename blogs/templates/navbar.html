@@ -28,7 +28,7 @@
                         {% endfor %}
                     </ul>
                 </li>
-                <a class="btn btn-outline-primary ms-2" href="{% url 'blogs:NewPost' %}" role="button">Crear Post</a>
+               {% if user.is_authenticated %} <a class="btn btn-outline-primary ms-2" href="{% url 'blogs:NewPost' %}" role="button">Crear Post</a> {% endif %}
             </ul>
             <form class="d-flex" role="search" action="{% url 'blogs:search' %}" method="get">
                 <input name="search" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
