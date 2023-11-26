@@ -1,6 +1,6 @@
 # EmilianoSouto-ProyectoFinal
 
-Web creada en Django estilo blog
+Web creada en Django estilo blog - VIDEO https://www.youtube.com/watch?v=R3KdbT6Yz4Q
 
 ## Instalación
 
