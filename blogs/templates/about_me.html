@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %} 
+<section class="section about-section gray-bg" id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-around flex-row-reverse">
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h3 class="dark-color">Emiliano Souto</h3>
+                    <h4 class="theme-color">Web Developer & Community Manager</h4>
+                    <p>Aqui va texto </p>
+                    <p>Aqui va mas texto</p>
+                    <div class="btn-bar">
+                        <a class="btn btn-danger" href="#">Trabajos</a>
+                        <a class="btn btn-danger" href="#">Descargar CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center">
+                <div class="about-img">
+                    <img src="https://icon2.cleanpng.com/20180325/xbw/kisspng-female-clip-art-avatar-5ab751aed085f9.3188267015219634388541.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}

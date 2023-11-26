@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %} 
+
+<h2>Editar Post</h2>
+<form method="post" action="">
+    {% csrf_token %}
+    {# {{ form.as_p }} #}
+    {{ form|crispy }}
+    <input type="submit" value="Guardar Cambios">
+</form>
+
+{% endblock content %}
