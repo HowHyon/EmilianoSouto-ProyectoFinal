@@ -22,6 +22,11 @@ Asegúrate de tener [Python](https://www.python.org/) y [Django](https://www.dja
 
     python manage.py runservers
 
+   http://127.0.0.1:8000/ Para ingresar
+
+   User : admin
+   Pw : admin
+
 Cualquier invitado puede visualizar la lista de post y los post - (la lista de post se encuentra en la home_page)
 
 Cualquier invitado puede registrarse al blog. (Se puede registrar utilizando el boton de la navbar "Sign In" y "Crear cuenta")
